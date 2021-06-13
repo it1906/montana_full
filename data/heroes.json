@@ -1,0 +1,63 @@
+[
+    {
+        "name": "Greg Gianforte",
+        "birth": "17. dubna 1961",
+        "death": "Stále žije",
+        "biography": "Greg Gianforte je americký podnikatel a také politik za Republikánskou stranu. V letech 2017 až 2020 byl poslancem Sněmovny reprezentantů Spojených států amerických za Montanu. Ve volbách v roce 2020 byl následně zvolen guvernérem Montany.",
+        "portraits": [
+            "greg.jpg"
+        ],
+        "online": "https://cs.wikipedia.org/wiki/Greg_Gianforte"
+    },
+    {
+        "name": "Joseph Kemp Toole",
+        "birth": "12.5.1851",
+        "death": "11.3.1929",
+        "biography": "Toole se narodil v Savaně, Missouri a chodil do veřejné školy sv. Josefa. V roce 1868 vystudoval Západní Vojenskou Instituci v New Castlu s několika oceněními. Přestěhoval se do Heleny, kde studoval právo. Později se stal prezidentem Montanského teritoria. Vzal si Lily Rosecranskou a měli spolu 3 děti.",
+        "portraits": [
+            "toole.jpg"
+        ],
+        "online": "https://en.wikipedia.org/wiki/Joseph_Toole"
+    },
+    {
+        "name": "Gary Cooper",
+        "birth": "7.5.1901",
+        "death": "13.5.1961",
+        "biography": "Gary Cooper se narodil jako Frank James Cooper 7. května 1901 v montanské Heleně jako druhý syn anglických přistěhovalců Charlese Henry Coopera, který se od svého příchodu do USA v roce 1885 stačil vypracovat ze soudního písaře až na respektovaného vrchního soudce, a Alici rozené Brazier. Frankova rodina byla v době jeho dětství už jednou z nějzámožnějších ve městě a vlastnila i šestisetakrový ranč Seven-Bar-Nine, kde si mohli Frank se svým starším bratrem Arthurem (*1895)vyhrát dosytosti. Staré dobré časy Divokého západu sice již dávno pominuly, ale i tak se Frank stačil nadýchat omamného vzduchu starých indiánských a kovbojských dobrodružství.",
+        "portraits": [
+            "cooper.jpg"
+        ],
+        "online": "https://www.csfd.cz/tvurce/761-gary-cooper/"
+    },
+    {
+        "name": "Patrick Duffy",
+        "birth": "17.3.1949",
+        "death": "Stále žije",
+        "biography": "Patrick G. Duffy je americký televizní herec a režisér. K jeho nejznámějším rolím patří Bobby Ewing v seriálu stanice CBS Dallas a Frank Lambert v seriálu stanice ABC v sitkomu Krok za krokem. V roce 1976 Duffy dostal roli Marka Harrise v seriálu Muž z Atlantidy.",
+        "portraits": [
+            "duffy.jpg"
+        ],
+        "online": "https://cs.wikipedia.org/wiki/Patrick_Duffy"
+    },
+    {
+        "name": "Loren Acton",
+        "birth": "7.3.1936",
+        "death": "Stále žije",
+        "biography": "V Montaně vystudoval High School v Billings a State College v Bozemanu. Poté absolvoval vysokoškolské studium na University of Colorado at Boulder, kde získal titul doktora astrofyziky. Následně získal zaměstnání u Lockheed Palo Alto, zde setrval od roku 1964 do r. 1993. V průběhu let se přihlásil k NASA. V týmu připravujících se amerických astronautů byl od roku 1978 (bylo mu 42 let). Po svém letu do vesmíru zůstal ještě rok u NASA, načež se v roce 1986 vrátil ke své práci u firmy Lockheed. Ve svých 57 letech, v roce 1993 nastoupil jako profesor v Montaně na univerzitu (Montana State University), kde také vystudoval inženýrství. Je ženatý s Evelyn, rozenou Oldenburger a má dvě děti, jmenují se Cheryl a Stanley.",
+        "portraits": [
+            "loren.jpg"
+        ],
+        "online": "https://cs.wikipedia.org/wiki/Loren_Acton"
+    },
+    {
+        "name": "David Lynch",
+        "birth": "20.1.1946",
+        "death": "Stále žije",
+        "biography": "David Keith Lynch je americký filmový scenárista, režisér, producent, malíř, hudebník, skladatel a performer. Jedná se o významného představitele postmoderní kinematografie. Byl nominován na Oscara v kategorii nejlepší režie za filmy Sloní muž (1980), Modrý samet (1986) a Mulholland Drive (2001). Sloní muž byl také nominován v kategorii nejlepší scénář. V roce 2019 získal Čestného Oscara za celoživotní přínos kinematografii. Vyhrál hlavní cenu na Filmovém festivalu v Cannes a Benátkách.",
+        "portraits": [
+            "lynch.jpg"
+        ],
+        "online": "https://cs.wikipedia.org/wiki/David_Lynch"
+    }
+    
+]

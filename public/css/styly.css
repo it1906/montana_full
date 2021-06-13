@@ -1,0 +1,37 @@
+#nadpis{
+    background-color: rgb(142, 19, 146);
+    font-size: 6.5em;
+    text-transform: uppercase;
+}
+h2 {
+    background-color: rgb(159, 47, 163);
+    color: white;
+    font-size: 2em;
+    padding: 0.5em;
+    text-transform: uppercase;
+}
+
+h3{
+    color: rgb(142, 50, 218);
+    font-size: 1.65em;
+    margin: 0.5em 0;
+}
+h4{
+    color: rgb(142, 50, 218);
+    font-size: 1.125em;
+    margin: 0.5em 0;
+}
+a{ 
+    text-decoration: none !important;
+    color: rgb(191, 141, 238);
+}
+#mista{
+    color: white;
+    background-color: rgb(142, 50, 218);
+    font-size: 1em;
+
+
+}
+/*.list-group-item-primary{
+    background-color: rgb(143, 27, 137);
+}*/
