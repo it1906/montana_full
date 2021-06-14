@@ -15,11 +15,15 @@
         rel="stylesheet" />
     <link rel="stylesheet" href="css/styly.css">
     <link rel="shortcut icon" href="https://flagcdn.com/16x12/us-mt.png">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
 </head>
 
 <body>
     <header class="jumbotron-fluid ">
-        <h1 id="nadpis" class="text-white display-3 text-center p-4 sticky-top" style ="background-image: url('https://www.nawpic.com/media/2020/american-flag-nawpic-2.jpg');">Montana</h1>
+        <h1 id="nadpis" class="text-white display-3 text-center p-4 sticky-top"
+            style="background-image: url('https://www.nawpic.com/media/2020/american-flag-nawpic-2.jpg');">Montana</h1>
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-4">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
                 aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,7 +33,8 @@
                 <a class="navbar-brand" href="index.html">Základní informace</a>
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
-                        <a class="nav-link" href="historie/historie.html">Historie <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="historie/historie.html">Historie <span
+                                class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="geo/geo.html">Geografie <span class="sr-only">(current)</span></a>
@@ -46,7 +51,7 @@
         <div class="row">
             <main class="col-lg-8">
                 <section id="uvodni-informace">
-                    <h2>Základní informace</h2>
+                    <h2>Při návštěvě</h2>
                     <p>
                         Montana je stát na severozápadě USA při hranicích s Kanadou. Charakteristický je svou velkou
                         rozlohou, ale relativně nízkým počtem obyvatel, díky čemuž je hned po Aljašce státem s druhou
@@ -94,6 +99,9 @@
                     <img src="https://file.mahalo.cz/2013/11/logan-pass-jedno-z-nejpopularnejsich-mist-celeho-narodniho-parku-glacier-1024x683.jpg"
                         class="img-fluid. max-width:768 img-thumbnail">
                     <h4>Při návštěvě</h4>
+                    <div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/8cuKtB7DB2A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
                     <p>
                         Každý stát má svá vlastní informační střediska, která poskytují zdarma cestovní informace, mapy,
                         brožury a velmi užitečné zlevňovací kupony na bydlení, atrakce, výlety a restaurace.
@@ -112,9 +120,38 @@
             </main>
             <aside class="col-lg-4">
                 <section>
-                    <h2>Montana v číslech</h2>
+                    <h2>ZÁKLADNÍ INFORMACE</h2>
+                    <div style="text-align:center;padding:0.35em 0;">
+                        <h4><a style="text-decoration:none;"
+                                href="https://www.zeitverschiebung.net/en/city/5655240"><span
+                                    style="color:gray;">Aktuální čas v</span><br />Great Falls, United States</a>
+                        </h4> <iframe
+                            src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=en&size=small&timezone=America%2FDenver"
+                            width="100%" height="90" frameborder="0" seamless></iframe>
+                    </div>
                     <h3>Poloha</h3>
-                    <img src="img/mapa.png" alt="Poloha Montany" class="img-fluid"><br>
+                    <div class="mapouter">
+                        <div class="gmap_canvas"><iframe width="400" height="200" id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=montana&t=&z=5&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                            <style>
+                                .mapouter {
+                                    position: relative;
+                                    text-align: right;
+                                    height: 200px;
+                                    width: 400px;
+                                }
+                            </style><a href="https://www.embedgooglemap.net"></a>
+                            <style>
+                                .gmap_canvas {
+                                    overflow: hidden;
+                                    background: none !important;
+                                    height: 200px;
+                                    width: 400px;
+                                }
+                            </style>
+                        </div>
+                    </div>
                     <p><strong>Hlavní město:</strong> Helena (30 tisíc obyvatel)</p>
                     <p><strong>Největší město:</strong> Billings (90 tisíc obyvatel)</p>
                     <p><strong>Rozloha:</strong> 380 800 km2</p>
@@ -123,6 +160,10 @@
                     <p><strong>Připojení k USA:</strong> 8. listopadu 1889 (41. stát)</p>
                     <h3>Státní vlajka</h3>
                     <img src="https://flagcdn.com/256x192/us-mt.png" width="256" height="192" alt="Montana">
+                    <h3>Státní hymna</h3>
+                    <audio controls>
+                        <source src="audio/anthem.mp3" type="audio/mpeg">
+                    </audio>
                     <h3>Rasové rozdělení</h3>
                     <ul>
                         <li>89,4 % Bílí Američané</li>
@@ -173,11 +214,15 @@
     </footer>
     <script src="js/jquery-3.5.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-  </script>
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
