@@ -1,13 +1,11 @@
 // Vytvořte pole datových objektů v platných formátech JSON (otestujte jejich validitu např. zde: https://jsonformatter.curiousconcept.com/)
 // Články s historickými zajímavostmi
 const articles = [{
-        "title": "Dražba amerického města Garryowen skončila fiaskem. Nikdo ho nechtěl",
+        "title": "Dražba města Garryowen skončila fiaskem.",
         "text": "Město Garryowen v americké Montaně se prodávat nebude. Unikátní dražba obce o dvou obyvatelích u bojiště Little Bighorn skončila trapasem. Sousedství historického místa, kde v roce 1876 indiáni slavně zvítězili nad generálem Custerem, nepomohlo. Nikdo nechtěl přihazovat.",
         "date": "16.8.2012",
         "author": "iROZHLAS",
         "source": "https://www.irozhlas.cz/zpravy-svet/drazba-americkeho-mesta-garryowen-skoncila-fiaskem-nikdo-ho-nechtel_201208160700_kbrezovska",
-        "likes": "43",
-        "dislikes": "6",
         "gallery": [
             "drazba.jpeg",
         ]
@@ -18,20 +16,16 @@ const articles = [{
         "date": "25.6.1876",
         "author": "Radiožurnál",
         "source": "https://radiozurnal.rozhlas.cz/general-custer-mel-vitezstvi-na-dosah-6273264",
-        "likes": "420",
-        "dislikes": "69",
         "gallery": [
             "custer.jpg",
         ]
     },
     {
-        "title": "Bizoni z Yellowstonu se přestěhovali na západ. Uprostřed sněhové bouře a bez médií",
+        "title": "Bizoni z Yellowstonu se přestěhovali na západ.",
         "text": "Šest desítek bizonů z národního parku v Yellowstonu bylo v pondělí vypuštěno v rezervaci Fort Peck v americkém státě Montana, 800 kilometrů na severovýchod od jejich původního domova. Oznámila to agentura AP s tím, že jde o součást programu na opětné osídlení amerického západu tímto zvířecím druhem.",
         "date": "2012",
         "author": "HOSPODÁŘSKÉ NOVINY",
         "source": "https://zahranicni.ihned.cz/c1-55098210-bizoni-z-yellowstonu-se-prestehovali-na-zapad-uprostred-snehove-boure-a-bez-medii",
-        "likes": "55",
-        "dislikes": "3",
         "gallery": [
             "yellowstone.jpg",
         ]
@@ -42,8 +36,6 @@ const articles = [{
         "date": "15.5.1891",
         "author": "Vendula Křížová",
         "source": "https://zpravy.aktualne.cz/zahranici/rezervace-indianu-se-meni-v-peklo-muze-za-to-alkohol/r~i:article:476067/",
-        "likes": "186",
-        "dislikes": "31",
         "gallery": [
             "indian.jpg",
         ]
@@ -104,10 +96,10 @@ $(function () {
             $("#postavy li").removeClass("active");
             $(this).addClass("active");
             let person = $(this).text();
-            $("#portret").slideUp(250, function () {
+            $("#portret").slideUp(800, function () {
                 fillPersonCard(heroes, person);
             });
-            $("#portret").slideDown(250);
+            $("#portret").slideDown(800);
         });
     }
     
@@ -149,8 +141,6 @@ $(function () {
                     <p><a href="${article.source}" target="_new">Celý článek</a></p>
                 </div>
                 <div class="article-footer">Autor: ${article.author} 
-                <button type="button" class="btn btn-success likes"><i class="fas fa-thumbs-up"></i> <span class="badge badge-light text-dark">${article.likes}</span></button>
-                <button type="button" class="btn btn-danger dislikes"><i class="fas fa-thumbs-down"></i> <span class="badge badge-light text-dark">${article.dislikes}</span></button>
                 </div>
               </article>
             </div>        
@@ -163,7 +153,7 @@ $(function () {
         $(this).next(".article-text").toggle();
     });
 
-    $(".likes").on("click", function () {
+   /* $(".likes").on("click", function () {
         let likes = parseInt($(this).find("span").text());
         $(this).find("span").text(likes + 1);
     });
@@ -171,7 +161,7 @@ $(function () {
     $(".dislikes").on("click", function () {
         let dislikes = parseInt($(this).find("span").text());
         $(this).find("span").text(dislikes + 1);
-    });
+    });*/
 
     let timer = 0;
     window.setInterval(() => {
