@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1000mm"
+   height="30mm"
+   viewBox="0 0 1000 30"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="osa.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="1000mm"
+     inkscape:zoom="0.26519976"
+     inkscape:cx="2415.1605"
+     inkscape:cy="-326.16922"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:lockguides="false" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#800080;stroke-width:0.93623"
+       id="rect31"
+       width="999.95795"
+       height="30.024403"
+       x="0.047985259"
+       y="0.039122388">
+      <title
+         id="title33">osa</title>
+    </rect>
+    <rect
+       style="fill:#000000;stroke-width:0.255112;image-rendering:auto"
+       id="rect195-6-0-5"
+       width="30.454172"
+       height="30.081959"
+       x="834.72034"
+       y="0.073301919">
+      <title
+         id="title277-5-4-7">stat</title>
+    </rect>
+    <rect
+       style="fill:#000000;stroke-width:0.255112;image-rendering:auto"
+       id="rect195-6-0"
+       width="30.454172"
+       height="30.081959"
+       x="588.82812"
+       y="-0.013490875">
+      <title
+         id="title277-5-4">teritorium</title>
+    </rect>
+    <rect
+       style="fill:#000000;stroke-width:0.255112;image-rendering:auto"
+       id="rect195-6"
+       width="30.454172"
+       height="30.081959"
+       x="490.87857"
+       y="-0.058749806">
+      <title
+         id="title277-5">zlato</title>
+    </rect>
+    <rect
+       style="fill:#000000;stroke-width:0.255112;image-rendering:auto"
+       id="rect195"
+       width="30.454172"
+       height="30.081959"
+       x="53.861462"
+       y="0.048287936">
+      <title
+         id="title277">koupe</title>
+    </rect>
+  </g>
+</svg>

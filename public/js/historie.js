@@ -163,6 +163,20 @@ $(function () {
         $(this).find("span").text(dislikes + 1);
     });*/
 
+    let before = ''; 
+    $(".promene").on('mouseenter', function () {
+        before = $(this).css('fill');
+        $(this).css('fill', 'red');
+        $(this).popover({
+            'trigger': 'click',
+            'placement': 'top',
+        });
+
+    });
+    $(".promene").on('mouseleave', function(){
+        $(this).css('fill', before);
+    });
+
     let timer = 0;
     window.setInterval(() => {
         timer++;
