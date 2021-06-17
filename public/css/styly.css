@@ -32,6 +32,9 @@ a{
 
 
 }
+nav{
+    margin-top: -1%;
+}
 /*.list-group-item-primary{
     background-color: rgb(143, 27, 137);
 }*/

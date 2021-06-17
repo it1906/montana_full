@@ -85,7 +85,7 @@ $(function () {
 
     function heroesBlock(heroes) {
         heroes.forEach((hero) => {
-            $("#postavy .list-group").append(`<li class=" list-group-item list-group-item-secondary">${hero.name}</li>`);
+            $("#postavy .list-group").append(`<li class=" list-group-item list-group-item-action list-group-item-secondary">${hero.name}</li>`);
         });
 
 
@@ -173,7 +173,7 @@ $(function () {
         });
 
     });
-    $(".promene").on('mouseleave', function(){
+    $(".promene").on('mouseleave', function(){ 
         $(this).css('fill', before);
     });
 
