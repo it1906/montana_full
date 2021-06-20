@@ -18,17 +18,17 @@ async function writeJSON(path, data) {
     return data;
 }
 
-/*
-readJSON('data/events.json')
- .then(data => console.log(data))
- .catch(err => console.error('Failed to read file', err));
-*/
-
 const app = express();
 const server = http.createServer(app);
 
 // Set static folder
 app.use(express.static(path.join(__dirname, "public")));
+
+app.get("/api/mista", (req, res) => {
+    readJSON('data/mista.json')
+    .then(data => res.send(data))
+    .catch(err => res.send('Soubor nebylo možné načíst', err));       
+});
 
 app.get("/api/events", (req, res) => {
     readJSON('public/historie/data/events.json')

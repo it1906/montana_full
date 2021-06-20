@@ -1,4 +1,4 @@
-let pamatky = [
+[
     {
         "id": "yellowstone",
         "foto": "yellowstone.jpg",
@@ -23,36 +23,7 @@ let pamatky = [
         "id": "granite",
         "foto": "granite.jpg",
         "info": " Granite je město duchů v Granite County, Montana, Spojené státy americké, tři míle východně od města Philipsburg. Žula v 90. letech 19. století prosperovala jako město na těžbu stříbra a nyní je zcela opuštěná. Stát Montana udržuje dům důlního dozorce a ruiny odborové haly jako Státní park Granite Ghost Town."
-    },
+    }
 
 
 ]
-
-$(function () {
-    $("#mapa circle ").hide();
-    $("#mista").on('click', function () {
-        $("#mapa circle").toggle(500);
-    });
-    let before = ''; 
-    $("#mapa path").on('mouseenter', function () {
-        before = $(this).css('fill');
-        $(this).css('fill', 'grey');
-        $(this).popover({
-            'trigger': 'hover',
-            'placement': 'top',
-        });
-
-    });
-    $("#mapa path").on('mouseleave', function(){
-        $(this).css('fill', before);
-    });
-    $("#mapa circle").on('click', function(){
-        let id = $(this).attr('id');
-        $("#mapa circle").css('fill','purple');
-        $(this).css('fill','red');
-        let pamatka = pamatky.find(item => {return item.id == id});
-        $('#informace').slideUp( function(){$('#informace').html(`<div class=" col-12"><h2>${pamatka.id}</small></h2></div><div class="col-4"><img src="../img/${pamatka.foto}" class="img-fluid"></div><div class="col-8"><p>${pamatka.info}</p>`)});
-        $('#informace').slideDown();
-    });    
-
-})
